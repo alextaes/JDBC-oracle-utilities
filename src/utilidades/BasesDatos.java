@@ -33,7 +33,7 @@ public class BasesDatos {
 
 		return lineas;
 	}
-	//llama a leerConfig y si no hay excepciones crea la conexiÃ³n con los datos
+	//llama a leerConfig y si no hay excepciones crea la conexión con los datos
 	public static Connection initBD(String ruta) throws ClassNotFoundException, IOException, SQLException, ParseException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		String driver = "jdbc:oracle:thin:";
